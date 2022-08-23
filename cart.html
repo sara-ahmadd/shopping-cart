@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping Cart</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200&family=Courgette&family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="shop.css" />
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <div class="logo">
+          <a href="index.html"><h1>MyShop</h1></a>
+          <div class="icon">
+            <svg width="24" height="24" fill="none" viewBox="0 0 24 24">
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+                d="M18.25 7.75H5.75V16.75L4.75 19.25H19.25L18.25 16.75V7.75Z"
+              ></path>
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+                d="M18.25 7.75L16.25 4.75H7.75L5.75 7.75"
+              ></path>
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+                d="M9.75 10.75V11.75C9.75 12.9926 10.7574 14 12 14V14C13.2426 14 14.25 12.9926 14.25 11.75V10.75"
+              ></path>
+            </svg>
+          </div>
+        </div>
+        <div class="cart">
+          <svg width="24" height="24" fill="none" viewBox="0 0 24 24">
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.5"
+              d="M7.75 7.75H19.25L17.6128 14.7081C17.4002 15.6115 16.5941 16.25 15.666 16.25H11.5395C10.632 16.25 9.83827 15.639 9.60606 14.7618L7.75 7.75ZM7.75 7.75L7 4.75H4.75"
+            ></path>
+            <circle cx="10" cy="19" r="1" fill="currentColor"></circle>
+            <circle cx="17" cy="19" r="1" fill="currentColor"></circle>
+          </svg>
+          <div class="cart-number">0</div>
+        </div>
+      </nav>
+      <div id="total-cost"></div>
+      <div id="final-products"></div>
+    </div>
+    <script type="module" src="js/cart.js"></script>
+    <script type="module" src="js/products.js"></script>
+  </body>
+</html>

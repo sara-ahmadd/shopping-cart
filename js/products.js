@@ -1,0 +1,73 @@
+const products = [
+  {
+    id: '123456',
+    name: "suit",
+    price: 405,
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing.Lorem ipsum dolor .",
+    img: "images/img-1.jpg",
+  },
+  {
+    id: '213456',
+    name: "Casual Shirt",
+    price: 541,
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing.Lorem ipsum dolor sit amet",
+    img: "images/img-2.jpg",
+  },
+  {
+    id: '312456',
+    name: "Shirt",
+    price: 400,
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+    img: "images/img-3.jpg",
+  },
+  {
+    id: '412356',
+    name: "Casual Shirt",
+    price: 177,
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+    img: "images/img-4.jpg",
+  },
+  {
+    id: '512346',
+    name: "printed trendy Shirt",
+    price: 409,
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+    img: "images/img-5.jpg",
+  },
+  {
+    id: '612345',
+    name: "printed Shirt",
+    price: 342,
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+    img: "images/img-6.jpg",
+  },
+  {
+    id: '76890',
+    name: "oversize Shirt",
+    price: 112,
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+    img: "images/img-7.jpg",
+  },
+  {
+    id: '87690',
+    name: "Casual Shirt",
+    price: 322,
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+    img: "images/img-8.jpg",
+  },
+  {
+    id: '976810',
+    name: "Shirt",
+    price: 299,
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+    img: "images/img-9.jpg",
+  },
+  {
+    id: '106789',
+    name: "Shirt",
+    price: 145,
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+    img: "images/img-10.jpg",
+  },
+];
+export default products;
